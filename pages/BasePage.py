@@ -2,6 +2,7 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 class BasePage:
     def __init__(self, driver):
+        #newnew
         self.driver = driver
 
     def do_click(self, by_locator):
